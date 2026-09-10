@@ -21,7 +21,7 @@ cd wps-office-fix
 Копируем папку `ru_RU` в директорию со списками языковых пакетов WPS Office:
 
 ```bash
-cp -r ru_RU/ /opt/kingsoft/wps-office/office6/mui/ru_RU/
+sudo cp -r ru_RU/ /opt/kingsoft/wps-office/office6/mui/ru_RU/
 ```
 
 Переименовываем языковые пакеты английской версии:
