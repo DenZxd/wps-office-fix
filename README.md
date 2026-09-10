@@ -31,6 +31,8 @@ sudo mv /opt/kingsoft/wps-office/office6/dicts/spellcheck/en_US/ /opt/kingsoft/w
 ```
 ```bash
 sudo mv /opt/kingsoft/wps-office/office6/mui/en_US/ /opt/kingsoft/wps-office/office6/mui/en_US-old/
+
+sudo cp -r /opt/kingsoft/wps-office/office6/mui/ru_RU/ /opt/kingsoft/wps-office/office6/mui/en_US/
 ```
 
 Перезапускаем офис и он должен подхватить автоматически русский язык, если этого не произошло, то в левом верхнем углу справа от кнопке `Menu` нажимаем на стрелку вниз, выбираем `tools`, затем `set Language` и выбираем русский язык (после этого также WPS Office надо перезапустить).
